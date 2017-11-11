@@ -18,6 +18,160 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\jpeg\jccolext.c" />
+    <ClCompile Include="include\jpeg\jdcol565.c" />
+    <ClCompile Include="include\jpeg\jdcolext.c" />
+    <ClCompile Include="include\jpeg\jdmrg565.c" />
+    <ClCompile Include="include\jpeg\jdmrgext.c" />
+    <ClCompile Include="include\jpeg\jstdhuff.c" />
+    <ClCompile Include="source\2d.c" />
+    <ClCompile Include="source\dsp\nightshift.c" />
+    <ClCompile Include="source\entry.c" />
+    <ClCompile Include="source\jpeg\jaricom.c" />
+    <ClCompile Include="source\jpeg\jcapimin.c" />
+    <ClCompile Include="source\jpeg\jcapistd.c" />
+    <ClCompile Include="source\jpeg\jcarith.c" />
+    <ClCompile Include="source\jpeg\jccoefct.c" />
+    <ClCompile Include="source\jpeg\jccolor.c" />
+    <ClCompile Include="source\jpeg\jcdctmgr.c" />
+    <ClCompile Include="source\jpeg\jchuff.c" />
+    <ClCompile Include="source\jpeg\jcinit.c" />
+    <ClCompile Include="source\jpeg\jcmainct.c" />
+    <ClCompile Include="source\jpeg\jcmarker.c" />
+    <ClCompile Include="source\jpeg\jcmaster.c" />
+    <ClCompile Include="source\jpeg\jcomapi.c" />
+    <ClCompile Include="source\jpeg\jcparam.c" />
+    <ClCompile Include="source\jpeg\jcphuff.c" />
+    <ClCompile Include="source\jpeg\jcprepct.c" />
+    <ClCompile Include="source\jpeg\jcsample.c" />
+    <ClCompile Include="source\jpeg\jctrans.c" />
+    <ClCompile Include="source\jpeg\jdatadst.c" />
+    <ClCompile Include="source\jpeg\jerror.c" />
+    <ClCompile Include="source\jpeg\jfdctflt.c" />
+    <ClCompile Include="source\jpeg\jfdctfst.c" />
+    <ClCompile Include="source\jpeg\jfdctint.c" />
+    <ClCompile Include="source\jpeg\jidctflt.c" />
+    <ClCompile Include="source\jpeg\jidctfst.c" />
+    <ClCompile Include="source\jpeg\jidctint.c" />
+    <ClCompile Include="source\jpeg\jidctred.c" />
+    <ClCompile Include="source\jpeg\jmemmgr.c" />
+    <ClCompile Include="source\jpeg\jmemnobs.c" />
+    <ClCompile Include="source\jpeg\jquant1.c" />
+    <ClCompile Include="source\jpeg\jquant2.c" />
+    <ClCompile Include="source\jpeg\jsimd_none.c" />
+    <ClCompile Include="source\jpeg\jutils.c" />
+    <ClCompile Include="source\libctru\AC.c" />
+    <ClCompile Include="source\libctru\FS.c" />
+    <ClCompile Include="source\libctru\OS.c" />
+    <ClCompile Include="source\libctru\SOC.c" />
+    <ClCompile Include="source\libctru\srv.c" />
+    <ClCompile Include="source\main.c" />
+    <ClCompile Include="source\memory.c" />
+    <ClCompile Include="source\ns\ns.c" />
+    <ClCompile Include="source\ns\rt.c" />
+    <ClCompile Include="source\plg.c" />
+    <ClCompile Include="source\pm.c" />
+    <ClCompile Include="source\save.c" />
+    <ClCompile Include="source\sharedfunc.c" />
+    <ClCompile Include="source\svc7b.c" />
+    <ClCompile Include="source\tools.c" />
+    <ClCompile Include="source\ui.c" />
+    <ClCompile Include="source\util.c" />
+    <ClCompile Include="source\xprintf.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="3ds.ld" />
+    <None Include="build-jpeg.py" />
+    <None Include="build.bat" />
+    <None Include="build.py" />
+    <None Include="LICENSE" />
+    <None Include="README.md" />
+    <None Include="source\bootloader.s" />
+    <None Include="source\jpeg\jconfig.h.in" />
+    <None Include="source\libctru\svc.s" />
+    <None Include="source\misc.s" />
+    <None Include="startenv.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\2d.h" />
+    <ClInclude Include="include\3dstypes.h" />
+    <ClInclude Include="include\bmp_file.h" />
+    <ClInclude Include="include\constants.h" />
+    <ClInclude Include="include\ctr\AC.h" />
+    <ClInclude Include="include\ctr\APT.h" />
+    <ClInclude Include="include\ctr\CFGNOR.h" />
+    <ClInclude Include="include\ctr\CSND.h" />
+    <ClInclude Include="include\ctr\FS.h" />
+    <ClInclude Include="include\ctr\GPU.h" />
+    <ClInclude Include="include\ctr\GSP.h" />
+    <ClInclude Include="include\ctr\GX.h" />
+    <ClInclude Include="include\ctr\HID.h" />
+    <ClInclude Include="include\ctr\HTTPC.h" />
+    <ClInclude Include="include\ctr\IR.h" />
+    <ClInclude Include="include\ctr\OS.h" />
+    <ClInclude Include="include\ctr\SHDR.h" />
+    <ClInclude Include="include\ctr\SOC.h" />
+    <ClInclude Include="include\ctr\srv.h" />
+    <ClInclude Include="include\ctr\svc.h" />
+    <ClInclude Include="include\ctr\types.h" />
+    <ClInclude Include="include\fastlz.h" />
+    <ClInclude Include="include\font.h" />
+    <ClInclude Include="include\func.h" />
+    <ClInclude Include="include\gen.h" />
+    <ClInclude Include="include\global.h" />
+    <ClInclude Include="include\integer.h" />
+    <ClInclude Include="include\jpeg\cderror.h" />
+    <ClInclude Include="include\jpeg\cdjpeg.h" />
+    <ClInclude Include="include\jpeg\jchuff.h" />
+    <ClInclude Include="include\jpeg\jconfig.h" />
+    <ClInclude Include="include\jpeg\jconfigint.h" />
+    <ClInclude Include="include\jpeg\jdcoefct.h" />
+    <ClInclude Include="include\jpeg\jdct.h" />
+    <ClInclude Include="include\jpeg\jdhuff.h" />
+    <ClInclude Include="include\jpeg\jdmainct.h" />
+    <ClInclude Include="include\jpeg\jdmaster.h" />
+    <ClInclude Include="include\jpeg\jdsample.h" />
+    <ClInclude Include="include\jpeg\jerror.h" />
+    <ClInclude Include="include\jpeg\jinclude.h" />
+    <ClInclude Include="include\jpeg\jmemsys.h" />
+    <ClInclude Include="include\jpeg\jmorecfg.h" />
+    <ClInclude Include="include\jpeg\jpegcomp.h" />
+    <ClInclude Include="include\jpeg\jpegint.h" />
+    <ClInclude Include="include\jpeg\jpeglib.h" />
+    <ClInclude Include="include\jpeg\jpeg_nbits_table.h" />
+    <ClInclude Include="include\jpeg\jsimd.h" />
+    <ClInclude Include="include\jpeg\jsimddct.h" />
+    <ClInclude Include="include\jpeg\jversion.h" />
+    <ClInclude Include="include\jpeg\transupp.h" />
+    <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\memory.h" />
+    <ClInclude Include="include\netdb.h" />
+    <ClInclude Include="include\netinet\in.h" />
+    <ClInclude Include="include\netinet\tcp.h" />
+    <ClInclude Include="include\ns\ns.h" />
+    <ClInclude Include="include\sharedfunc.h" />
+    <ClInclude Include="include\sys\socket.h" />
+    <ClInclude Include="include\tiny_jpeg.h" />
+    <ClInclude Include="include\xprintf.h" />
+    <ClInclude Include="include\zlib\crc32.h" />
+    <ClInclude Include="include\zlib\deflate.h" />
+    <ClInclude Include="include\zlib\gzguts.h" />
+    <ClInclude Include="include\zlib\inffast.h" />
+    <ClInclude Include="include\zlib\inffixed.h" />
+    <ClInclude Include="include\zlib\inflate.h" />
+    <ClInclude Include="include\zlib\inftrees.h" />
+    <ClInclude Include="include\zlib\trees.h" />
+    <ClInclude Include="include\zlib\zconf.h" />
+    <ClInclude Include="include\zlib\zlib.h" />
+    <ClInclude Include="include\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libc.a" />
+    <Library Include="libgcc.a" />
+    <Library Include="libm.a" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{1584E3E7-EF9D-488B-979D-DBBC7397D041}</ProjectGuid>
@@ -110,8 +264,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

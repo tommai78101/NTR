@@ -13,5 +13,469 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\source">
+      <UniqueIdentifier>{fb2cef3b-7f94-4dfd-aab3-434721497473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\dsp">
+      <UniqueIdentifier>{1bc69a59-7d70-46b0-a3f3-df0969995865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\jpeg">
+      <UniqueIdentifier>{4c3e3202-7df1-4a0a-a76b-013c9a5223f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\libctru">
+      <UniqueIdentifier>{b19750bd-a525-4bde-b278-a4dc290bc760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\ns">
+      <UniqueIdentifier>{fcbb7303-c32b-49ab-a966-fecba29fe53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{9bc3c5a8-596e-4d83-bd9d-d55c028c9785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\ctr">
+      <UniqueIdentifier>{5385ddef-abcc-43cf-890d-8c712bd08c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\jpeg">
+      <UniqueIdentifier>{ed337e1d-ebf1-41f5-a2ca-5106354c9cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\netinet">
+      <UniqueIdentifier>{f20ce1ad-7562-45d0-97e3-8c7dff874625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\ns">
+      <UniqueIdentifier>{dc77e59f-cc4c-4572-a5ee-838a9a6febea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\sys">
+      <UniqueIdentifier>{de01e742-1320-4140-8d6e-d39d620ae6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\zlib">
+      <UniqueIdentifier>{c93ef933-1458-4741-96d9-e806cb9f8064}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\dsp\nightshift.c">
+      <Filter>Source Files\source\dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jaricom.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcapimin.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcapistd.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcarith.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jccoefct.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jccolor.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcdctmgr.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jchuff.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcinit.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcmainct.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcmarker.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcmaster.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcomapi.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcparam.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcphuff.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcprepct.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jcsample.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jctrans.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jdatadst.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jerror.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jfdctflt.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jfdctfst.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jfdctint.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jidctflt.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jidctfst.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jidctint.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jidctred.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jmemmgr.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jmemnobs.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jquant1.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jquant2.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jsimd_none.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jpeg\jutils.c">
+      <Filter>Source Files\source\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libctru\AC.c">
+      <Filter>Source Files\source\libctru</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libctru\FS.c">
+      <Filter>Source Files\source\libctru</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libctru\OS.c">
+      <Filter>Source Files\source\libctru</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libctru\SOC.c">
+      <Filter>Source Files\source\libctru</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libctru\srv.c">
+      <Filter>Source Files\source\libctru</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ns\ns.c">
+      <Filter>Source Files\source\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ns\rt.c">
+      <Filter>Source Files\source\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="source\2d.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\entry.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\memory.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\plg.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pm.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\save.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sharedfunc.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\svc7b.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tools.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\util.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\xprintf.c">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\jpeg\jccolext.c">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="include\jpeg\jdcol565.c">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="include\jpeg\jdcolext.c">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="include\jpeg\jdmrg565.c">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="include\jpeg\jdmrgext.c">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="include\jpeg\jstdhuff.c">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\jpeg\jconfig.h.in">
+      <Filter>Source Files\source\jpeg</Filter>
+    </None>
+    <None Include="source\libctru\svc.s">
+      <Filter>Source Files\source\libctru</Filter>
+    </None>
+    <None Include="source\bootloader.s">
+      <Filter>Source Files\source</Filter>
+    </None>
+    <None Include="source\misc.s">
+      <Filter>Source Files\source</Filter>
+    </None>
+    <None Include=".gitignore" />
+    <None Include="3ds.ld" />
+    <None Include="build.py" />
+    <None Include="build-jpeg.py" />
+    <None Include="LICENSE" />
+    <None Include="README.md" />
+    <None Include="build.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="startenv.bat">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\2d.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3dstypes.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bmp_file.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\constants.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fastlz.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\font.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\func.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gen.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\global.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\integer.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\memory.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\netdb.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sharedfunc.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tiny_jpeg.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xprintf.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\AC.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\APT.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\CFGNOR.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\CSND.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\FS.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\GPU.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\GSP.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\GX.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\HID.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\HTTPC.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\IR.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\OS.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\SHDR.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\SOC.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\srv.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\svc.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ctr\types.h">
+      <Filter>Header Files\include\ctr</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\cderror.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\cdjpeg.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jchuff.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jconfig.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jconfigint.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jdcoefct.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jdct.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jdhuff.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jdmainct.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jdmaster.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jdsample.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jerror.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jinclude.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jmemsys.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jmorecfg.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jpeg_nbits_table.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jpegcomp.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jpegint.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jpeglib.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jsimd.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jsimddct.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\jversion.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg\transupp.h">
+      <Filter>Header Files\include\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="include\netinet\in.h">
+      <Filter>Header Files\include\netinet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\netinet\tcp.h">
+      <Filter>Header Files\include\netinet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ns\ns.h">
+      <Filter>Header Files\include\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sys\socket.h">
+      <Filter>Header Files\include\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\crc32.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\deflate.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\gzguts.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\inffast.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\inffixed.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\inflate.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\inftrees.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\trees.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\zconf.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\zlib.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zlib\zutil.h">
+      <Filter>Header Files\include\zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libc.a" />
+    <Library Include="libgcc.a" />
+    <Library Include="libm.a" />
   </ItemGroup>
 </Project>
