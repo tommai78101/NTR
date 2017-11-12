@@ -16,7 +16,7 @@ include $(DEVKITARM)/3ds_rules
 # DATA is a list of directories containing data files
 # INCLUDES is a list of directories containing header files
 #---------------------------------------------------------------------------------
-TARGET		:=	ntr_payload
+TARGET		:=
 BUILD		:=	build
 SOURCES		:=	source source/dsp source/jpeg source/ns source/libctru
 DATA		:=
@@ -33,8 +33,10 @@ CFLAGS	:=	-Wall \
 
 ifeq ($(strip $(NEW_3DS)),1)
 CFLAGS += $(INCLUDE) -DHAS_JPEG=1 -O3
+TARGET := n3ds_ntr_payload
 else
 CFLAGS += $(INCLUDE) -Os
+TARGET := o3ds_ntr_payload
 endif
 
 CXXFLAGS	:= $(CFLAGS) -fno-rtti -fno-exceptions -std=gnu++11
@@ -121,7 +123,10 @@ new_3ds:
 	@echo making ntr_payload for new_3ds ...
 	@$(MAKE) NEW_3DS=1
 
-both: old_3ds new_3ds
+pre_both: old_3ds
+	@rm -fr $(BUILD)
+
+both: pre_both new_3ds
 	
 
 
