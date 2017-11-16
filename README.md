@@ -3,7 +3,7 @@
 # TODO LIST
 
 1. The printf impl. (xprintf.c) is not thread-safe, it should be replaced with a thread-safe one.
-2. Fix warnings.
+2. ~~Fix warnings.~~ **(WARNINGS HAVE BEEN REMOVED! YAY!)**
 
 # Compilation using Visual Studio
 
