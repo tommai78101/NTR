@@ -247,16 +247,8 @@
     </None>
     <None Include=".gitignore" />
     <None Include="3ds.ld" />
-    <None Include="build.py" />
-    <None Include="build-jpeg.py" />
     <None Include="LICENSE" />
     <None Include="README.md" />
-    <None Include="build.bat">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="startenv.bat">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\2d.h">
@@ -472,10 +464,5 @@
     <ClInclude Include="include\zlib\zutil.h">
       <Filter>Header Files\include\zlib</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="libc.a" />
-    <Library Include="libgcc.a" />
-    <Library Include="libm.a" />
   </ItemGroup>
 </Project>

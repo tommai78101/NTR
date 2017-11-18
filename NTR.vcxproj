@@ -83,16 +83,12 @@
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="3ds.ld" />
-    <None Include="build-jpeg.py" />
-    <None Include="build.bat" />
-    <None Include="build.py" />
     <None Include="LICENSE" />
     <None Include="README.md" />
     <None Include="source\bootloader.s" />
     <None Include="source\jpeg\jconfig.h.in" />
     <None Include="source\libctru\svc.s" />
     <None Include="source\misc.s" />
-    <None Include="startenv.bat" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\2d.h" />
@@ -166,11 +162,6 @@
     <ClInclude Include="include\zlib\zconf.h" />
     <ClInclude Include="include\zlib\zlib.h" />
     <ClInclude Include="include\zlib\zutil.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="libc.a" />
-    <Library Include="libgcc.a" />
-    <Library Include="libm.a" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
