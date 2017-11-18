@@ -2,7 +2,6 @@
 #define MAIN_H
 
 #include "3dstypes.h"
-//#include "..\..\BootNTR\source\ntr_config.h"
 
 #define NTR_MEMMODE_DEFAULT (0)
 #define NTR_MEMMODE_BASE (3)
