@@ -25,8 +25,8 @@ BUILD		:=	build
 SOURCES		:=	source source/dsp source/jpeg source/ns source/libctru
 DATA		:=
 INCLUDES	:=	include include/jpeg
-OLD_3DS_TARGET := o3ds_ntr_payload
-NEW_3DS_TARGET := n3ds_ntr_payload
+OLD_3DS_TARGET := ntr.o3ds
+NEW_3DS_TARGET := ntr.n3ds
 
 #---------------------------------------------------------------------------------
 # options for code generation
